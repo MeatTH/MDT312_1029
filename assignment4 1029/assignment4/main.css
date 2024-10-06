@@ -1,0 +1,337 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 15% auto;
+	grid-gap: 20 px;
+}
+
+.grid-container > div{
+    border: 1px solid rgb(231, 38, 4);
+    font-size: 20px;
+    text-align: center;
+    background-color:white;
+	border-radius: 5px;
+}
+
+#header{
+	grid-column: 1 / span 2;
+	background-color: #e28e49;
+	color: rgb(255, 255, 255);
+	font-size: 20pt;
+}
+
+#menu{
+	grid-column: 1 / span 1;
+	background-color: #f5e18a;
+	color: #ac0101;
+}
+#main{
+	grid-column: 2 / span 1;
+	color: #ac0101;
+}
+
+#footer{
+	grid-column: 1 / span 2;
+}
+
+.parent{
+	display: flex;
+	margin: 2% 2%;
+}
+
+#First-pic{
+	border-radius: 10px;
+	width: 30%;
+	height: 50%;
+}
+#menu-text{
+	background-color: rgb(255, 255, 255);
+	margin: 10% 2%;
+	border-radius: 5px;
+}
+.pizza-pic{
+	border-radius: 10px;
+	width: 10%;
+}
+@keyframes spin{
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+#Ingredients-pic{
+	border-radius: 10px;
+	width: 20%;
+}
+
+section{
+	margin: 5% 2%;
+	color: #ac0101;
+}
+p1{
+	border-radius: 5px;
+	margin: auto;
+	padding: 5px 20px;
+	font-weight: bold;
+	
+}
+.Ingredients{
+	text-align: left;
+	margin: 5px 20px;
+}
+li{
+	margin: 2%;
+	color: #ac0101;
+	font-size: 13pt;
+}
+h3{
+	margin: 2%;
+	color: #ff0202;
+	
+}
+body{
+	background-color: #f5430d;
+}
+hr{
+	border:2px solid #8b3d2f;
+}
+
+a{
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+	font-size: 20pt;
+}
+h1{
+	margin: 20px 5px;
+	font-style: oblique;
+}
+h2{
+	font-size: 40px;
+	font-style: oblique;
+}
+
+@media only screen and (max-width: 820px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns:20% auto;
+		grid-gap: 20px;
+	}
+	
+	.grid-container > div{
+		border: 1px solid rgb(231, 38, 4);
+		font-size: 20px;
+		text-align: center;
+		background-color:white;
+		border-radius: 5px;
+	}
+	
+	#header{
+		grid-column: 1 / span 2;
+		background-color: #e28e49;
+		color: rgb(255, 255, 255);
+		font-size: 20pt;
+	}
+	
+	#menu{
+		grid-column: 1 / span 1;
+		background-color: #f5e18a;
+		color: rgb(255, 253, 253);
+	}
+	#main{
+		grid-column: 2 / span 1;
+		color: rgb(110, 85, 0);
+	}
+	
+	#footer{
+		grid-column: 1 / span 2;
+	}
+	
+	.parent{
+		display: flex;
+		margin: 2% 2%;
+	}
+	.block > div{
+		display: block;
+	}
+	#First-pic{
+		border-radius: 10px;
+		width: 30%;
+		height: 50%;
+	}
+	#menu-text{
+		background-color: rgb(255, 255, 255);
+		margin: 10% 2%;
+		border-radius: 5px;
+	}
+	.pizza-pic{
+		/* padding: 30px 0px; */
+		border-radius: 10px;
+		width: 10%;
+	}
+	@keyframes spin{
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(360deg);}
+	}
+	
+	#Ingredients-pic{
+		border-radius: 10px;
+		width: 20%;
+	}
+	
+	section{
+		margin: 5% 2%;
+		color: #ac0101;
+	}
+	p1{
+		border-radius: 5px;
+		margin: auto;
+		padding: 5px 20px;
+		font-weight: bold;
+		color: #ca8073;
+		/* background-color: azure; */
+	}
+	.Ingredients{
+		text-align: left;
+		margin: 5px 20px;
+	}
+	li{
+		margin: 2%;
+		color: #ac0101;
+		font-size: 13pt;
+	}
+	body{
+		background-color:#f5430d;
+	}
+	hr{
+		border:1px solid rgb(231, 38, 4);
+	}
+	
+	a{
+		font-weight: bold;
+		color: rgb(255, 0, 0);
+		font-size: 20pt;
+	}
+	h1{
+		margin: 20px 5px;
+		
+	}
+	h2{
+		color: #ac0101;
+		font-size: 40px;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 20 px;
+	}
+	
+	.grid-container > div{
+		border: 1px solid rgb(255, 255, 255);
+		font-size: 10px;
+		text-align: center;
+		background-color:white;
+		border-radius: 5px;
+	}
+	
+	#header{
+		grid-column: 1 / span 1;
+		background-color: #e28e49;
+		color: rgb(255, 255, 255);
+		font-size: 10pt;
+	}
+	
+	#menu{
+		grid-column: 1 / span 1;
+		background-color: #f5e18a;
+		
+		
+	}
+	#main{
+		grid-column: 1 / span 1;
+		color: rgb(83, 63, 63);
+		
+	}
+	
+	#footer{
+		grid-column: 1 / span 1;
+	}
+	
+	.parent{
+		display: block;
+		/* display: block; */
+		margin: 2% 2%;
+	}
+	.block > div{
+		display: block;
+	}
+	#First-pic{
+		border-radius: 10px;
+		width: 30%;
+		height: 50%;
+	}
+	#menu-text{
+		background-color: rgb(255, 255, 255);
+		margin: 5px;
+		font-size: 10pt;
+		color: #ac0101;
+	}
+	.pizza-pic{
+		/* padding: 30px 0px; */
+		border-radius: 10px;
+		width: 10%;
+	}
+	@keyframes spin{
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(360deg);}
+	}
+	
+	#Ingredients-pic{
+		border-radius: 10px;
+		width: 20%;
+	}
+	
+	section{
+		margin: 5% 2%;
+		color: #ac0101;
+	}
+	p1{
+		border-radius: 5px;
+		margin: auto;
+		padding: 5px 2px;
+		font-weight: bold;
+		
+	}
+	.Ingredients{
+		text-align: left;
+		margin: 5px 20px;
+	}
+	li{
+		margin: 2%;
+		color: #ac0101;
+		font-size: 13pt;
+	}
+	body{
+		background-color: #f5430d;
+	}
+	hr{
+		border:1px solid #f5430d;
+	}
+	
+	a{
+		font-weight: bold;
+		color: rgb(255, 0, 0);
+		font-size: 20pt;
+	}
+	h1{
+		color: #ffffff;
+		margin: 10px 5px;
+	}
+	h2{
+		color: #ac0101;
+		font-size: 40px;
+
+	}
+	
+}

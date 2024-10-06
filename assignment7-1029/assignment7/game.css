@@ -1,0 +1,45 @@
+body{
+    background-color: #dbf5fc;
+}
+
+#container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px dashed rgb(122, 146, 252);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+fieldset{
+    background-color: rgb(255, 197, 255); 
+    border: 3px dashed rgb(122, 146, 252);  
+    color: #000000; 
+}
+legend{
+    background-color: rgb(255, 197, 255); 
+    border: 3px dashed rgb(122, 146, 252); 
+    color: #000000;
+}

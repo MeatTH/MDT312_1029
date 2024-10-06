@@ -1,0 +1,17 @@
+body{
+    background-color: #dbf5fc;
+}
+fieldset{
+    background-color: rgb(255, 197, 255); 
+    border: 3px dashed rgb(122, 146, 252);  
+    color: #000000;
+}
+legend{
+    background-color: rgb(255, 197, 255); 
+    border: 3px dashed rgb(122, 146, 252); 
+    color: #000000;
+}
+input{
+    background-color: rgb(239, 241, 253);
+    border: 1px none rgb(255, 255, 255); 
+}

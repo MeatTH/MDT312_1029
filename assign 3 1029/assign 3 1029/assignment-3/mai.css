@@ -1,0 +1,74 @@
+body{
+    background-color: #dbf5fc;   
+}
+
+h1{
+    font-family: "italic";
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+h2{
+    font-family: "IBM Plexsans Thai", sans-serif;
+    font-size: 25pt;
+    color: #000000;
+    text-align: center;
+}
+
+h3{
+    font-family: "IBM Plexsans Thai", sans-serif;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 227, 233);
+    border-radius: 20px ;
+    padding: 10px 30px;
+    margin: 0px 50px;
+}
+
+h4{
+    font-family: "IBM Plexsans Thai", sans-serif;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 227, 233);
+    border-radius: 20px ;
+    padding: 10px 30px;
+    margin: 0px 150px;
+}
+
+.parent{
+    display: flex;
+}
+
+.pic{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    margin: 20px 140px;
+    width: 50%;
+}
+
+.border1{
+    border-style: solid;
+    border-radius: 20px ;
+    padding: 20px 60px;
+    background-color: rgb(255, 197, 255);
+    border: 3px dashed rgb(122, 146, 252);
+    margin: 0px 500px;
+
+}
+
+hr{
+    width: 800px;
+}
+
+a:link{
+	color: #6a68e9; 
+}  
+a:visited{
+	color: #8c00ff; 
+} 
+ a:hover{ 
+	color: #ff3c00; 
+}
+

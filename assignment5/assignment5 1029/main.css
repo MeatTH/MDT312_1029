@@ -1,0 +1,26 @@
+body{
+    background-color: #dbf5fc;
+}
+h1{
+    background-color: rgb(255, 197, 255); 
+    border: 3px  dashed rgb(122, 146, 252);  
+    color: #000000;
+    text-align: center;
+}
+div{
+    background-color: #ffe2ff; 
+    color: #000000;
+    
+}
+textarea{
+    background-color: rgb(255, 197, 255); 
+    border: 1px  dashed rgb(122, 146, 252); 
+    color: #000000;
+    
+}
+button{
+    background-color: rgb(255, 197, 255); 
+    border: 1px  dashed rgb(122, 146, 252); 
+    color: 
+
+}
